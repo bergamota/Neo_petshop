@@ -1,9 +1,15 @@
 .infoBar {
 	background-color: $ascent-1-color;
 	color: white;
+	padding: 10px 0;
 
 	h5 {
 	  margin-bottom: 5px !important;
+	  font-size: 20px;
+	}
+
+	.column {
+		float: left;
 	}
 
 	.icon_place {

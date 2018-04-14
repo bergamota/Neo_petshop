@@ -5,19 +5,35 @@ headlogo {
 
 .logo{
   max-height: 80px;
+  display: block;
+  float: left;
+  max-height: 80px;
+  width: 20%;
+  text-align: left;
+
+  img {  
+    max-width: 200px !important;
+  }
 }
 
 ._header {
-  background: rgb(255,255,255);
+  background: white;
   margin-top: 0px;
+  height: 160px;
 
   &.fixed{
   box-shadow: rgba(0,0,0,.3) 0px 0px 10px 0px;
+  height: 93px;
+  }
+  &.fixed .menuheader {
+    display: none !important;
+  }
+  &.fixed .logo img {
+    max-width: 100px !important;
   }
 
   .ui.container {
     padding-top: 0px !important;
-    padding-bottom: 10px !important;
   }
 
   i.circular.icon {
@@ -30,9 +46,20 @@ headlogo {
   }
 
   .searchcolumn {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+
     @media screen and (max-width: $mobile-bp){
       display: none !important;
     }
+  }
+
+  .basket {
+    display: block;
+    float: right;
+    padding-top: 15px;
   }
 
   .cartbutton {
@@ -45,4 +72,8 @@ headlogo {
     }
   }
 
+}
+
+.ui.centered.grid > .row {
+  display: block;
 }

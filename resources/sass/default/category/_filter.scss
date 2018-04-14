@@ -17,11 +17,11 @@
       border-bottom: 1px solid #dededf;
       text-transform: uppercase;
       padding-left: 15px;
-      box-shadow: inset 5px 0 0 rgb(44, 62, 80);
+      box-shadow: inset 5px 0 0 #ff9934;
       margin-bottom: 10px;
       &.active {
         border-bottom: 0px solid #dededf;
-        background-color: rgb(44, 62, 80) !important;
+        background-color: #2cbbc1 !important;
         color: #ffffff;
       }
       .icon {

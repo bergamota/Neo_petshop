@@ -3,6 +3,8 @@
 
 Avaliação Front-end Fabiane Schroeder  utilizando [Tema Padrão](https://github.com/jetebusiness/NEO-Default_Theme).
 
-Não utilizado nenhum script para compilação
+npm install
+
+gulp sass
 
 [Link de acesso da loja](https://econcept.plataformaneo.com.br/). 

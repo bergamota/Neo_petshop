@@ -6,7 +6,6 @@
   .footer {
 	background-color: $ascent-4-color !important;
 	padding-bottom: 20px !important;
-	margin-top:30px !important;
 
 	.social.list {
 
@@ -42,7 +41,6 @@
 	height: 35px;
 	text-align: center;
 	padding: 0px !important;
-	background: black !important;
 
 	img{
 	  height: 25px;
@@ -66,3 +64,58 @@
     }
 }
   
+
+.ui.inverted.segment.footer-01 {	
+  clear: both;
+  overflow: hidden;
+  display: block;
+  padding: 30px 0;
+  background: $primary-color;
+  border-bottom: 10px solid $ascent-1-color;
+}
+.ui.inverted.segment.subFooter,
+.ui.inverted.segment.jetBrand {
+  background: $ascent-4-color;
+}
+.newsletter {
+  position: relative;
+  display: block;
+  float: left;
+  width: 70%;
+  padding: 0 0 0 150px;
+  box-sizing: border-box;
+}
+.newsletter:before {
+  content: "\f003";
+  font-family: Icons;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-size: 120px;
+}
+.social-media {
+  position: relative;
+  display: block;
+  float: right;
+  width: 30%;
+
+	a.ui {
+	  padding: 0 !important;
+	  background: transparent !important;
+	  font-size: 40px;
+	  color: #fff;
+	  @anima;
+	}
+		a.ui:hover {
+	  color: #036165 !important;
+	  opacity: 0.7;
+	  background: transparent !important;
+	}
+
+	a.ui > i.icon {
+	  width: inherit !important;
+	  height: inherit !important;
+	  margin: 0 !important;
+	}
+
+}

@@ -4,9 +4,12 @@ $menuHeight: 60px;
 $menuHoverBorderColor: $ascent-1-color;
 
 .menuheader {
+  display: block;
+  float: right;
   background-color: $menuBG;
   min-height: $menuHeight;
-  width: 100%;
+  width: 80%;
+  margin-top: 15px;
   /*Sub Classes*/
   .ui.menu {
     background: transparent;
@@ -25,6 +28,7 @@ $menuHoverBorderColor: $ascent-1-color;
         }
       > .item {
         word-wrap: normal;
+        font-size: 16px;
         span {
           white-space: nowrap;
           overflow: hidden;
